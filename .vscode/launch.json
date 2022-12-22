@@ -8,7 +8,7 @@
             "program": "${file}",
             "args": [
                 "<",
-                "${workspaceFolder}/in/${fileBasenameNoExtension}.in"
+                "${fileDirname}/input.in"
             ],
             "justMyCode": true
         }
