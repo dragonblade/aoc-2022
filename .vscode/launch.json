@@ -11,6 +11,17 @@
                 "${fileDirname}/input.in"
             ],
             "justMyCode": true
+        },
+        {
+            "name": "Run with reference input",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "args": [
+                "<",
+                "${fileDirname}/ref.in"
+            ],
+            "justMyCode": true
         }
     ]
 }
